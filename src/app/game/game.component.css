@@ -1,0 +1,31 @@
+
+.player-one{
+  background: #33cc33
+}
+.player-two{
+  background: #ff0000
+}
+.game-field{
+    max-width: 300px;
+
+  }
+
+  .game-board{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+
+}
+
+.subfield{
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+
+
+
+
+}
